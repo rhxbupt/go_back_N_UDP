@@ -94,43 +94,43 @@ transfer the same file, and vary the MSS from 100 bytes to 1000 bytes in increme
 
 For N = 64, P = 0.05, MSS = 100 bytes:
 
-![MSS=100](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/MSS =100.png)
+![image](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/MSS =100.png)
 
 For N = 64, P = 0.05, MSS = 200 bytes:
 
-![MSS=200](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/mss = 200.png)
+![image](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/mss = 200.png)
 
 For N = 64, P = 0.05, MSS = 300 bytes:
 
-![MSS=300](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/mss = 300.png)
+![image](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/mss = 300.png)
 
 For N = 64, P = 0.05, MSS = 400 bytes:
 
-![MSS=400](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/mss = 400.png)
+![image](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/mss = 400.png)
 
 For N = 64, P = 0.05, MSS = 500 bytes:
 
-![MSS=500](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/N =64.png)
+![image](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/N =64.png)
 
 For N = 64, P = 0.05, MSS = 600 bytes:
 
-![MSS=600](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/m =600.png)
+![image](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/m =600.png)
 
 For N = 64, P = 0.05, MSS = 700 bytes:
 
-![MSS=700](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/m =700.png)
+![image](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/m =700.png)
 
 For N = 64, P = 0.05, MSS = 800 bytes:
 
-![MSS=800](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/m = 800.png)
+![image](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/m = 800.png)
 
 For N = 64, P = 0.05, MSS = 900 bytes:
 
-![MSS=900](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/mss =900.png)
+![image](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/mss =900.png)
 
 For N = 64, P = 0.05, MSS = 1000 bytes:
 
-![MSS=1000](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/mss=1000 .png)
+![image](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/mss=1000 .png)
 
 
 ## Task 3: Effect of Loss Probability p
