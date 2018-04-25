@@ -94,7 +94,7 @@ transfer the same file, and vary the MSS from 100 bytes to 1000 bytes in increme
 
 For N = 64, P = 0.05, MSS = 100 bytes:
 
-![image](http://github.com/rhxbupt/go_back_N_UDP/raw/master/screencast/MSS=100.png)
+![image](http://github.com/rhxbupt/go_back_N_UDP/raw/master/screencast/MSS =100.png)
 
 For N = 64, P = 0.05, MSS = 200 bytes:
 
