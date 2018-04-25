@@ -196,7 +196,8 @@ def timer(send_seq_no,seq_file):
             f.write(new_data)
         f.close()
         os._exit(0)
-
+    if child_process > 0:
+	os.wait()
 
 def check_transfer_status(seq_file):
     file_transfer = 0
