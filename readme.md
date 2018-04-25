@@ -93,7 +93,6 @@ In this task, let the window size N = 64 and the loss probability p = 0.05. Run 
 transfer the same file, and vary the MSS from 100 bytes to 1000 bytes in increments of 100 bytes.
 
 For N = 64, P = 0.05, MSS = 100 bytes:
-![image](https://github.ncsu.edu/hren3/hw2/blob/master/screenshot/subject.png)
 
 ![image](http://github.com/rhxbupt/go_back_N_UDP/blob/master/screencast/mss.png)
 
