@@ -3,7 +3,7 @@ import socket
 import os
 import random
 import sys
-from decimal import *
+from decimal import Decimal
 
 def gen_random_number():
 	while 1:

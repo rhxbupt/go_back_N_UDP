@@ -62,6 +62,29 @@ Task 1: Effect of Window size N
 In this task, select a file at least 1MB, set the MSS to 500 bytes and the loss probability
 p = 0.05. Run the Go-back-N protocol to transfer the file you selected, and vary the value of the window size N = 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024.
 
+For N = 1, p = 0.05, MSS = 500 bytes:
+
+For N = 2, p = 0.05, MSS = 500 bytes:
+
+For N = 4, p = 0.05, MSS = 500 bytes:
+
+For N = 8, p = 0.05, MSS = 500 bytes:
+
+For N = 16, p = 0.05, MSS = 500 bytes:
+
+For N = 32, p = 0.05, MSS = 500 bytes:
+
+For N = 64, p = 0.05, MSS = 500 bytes:
+
+For N = 128, p = 0.05, MSS = 500 bytes:
+
+For N = 256, p = 0.05, MSS = 500 bytes:
+
+For N = 512, p = 0.05, MSS = 500 bytes:
+
+For N = 1024, p = 0.05, MSS = 500 bytes:
+
+
 Task 2: Effect of MSS
 
 Task 3: Effect of Loss Probability p

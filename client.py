@@ -69,7 +69,7 @@ def checksum(message):
     if message:
         total = 0
         length = len(message)
-        data = [message[i:i+16] for i in range(0,len(message),16)]
+        data = [message[i:i+16] for i in range(0,length,16)]
         for j in data:
 			total += int(j,2)
 			if total >= 65535:
@@ -121,10 +121,10 @@ def recv_process(socket,filename):
         while True:
             message,server_addr = socket.recvfrom(max_buff)
             seq_no = validate_recv_msg(message)
-            print 'seq_1'
-            print seq_no
+            # print 'seq_1'
+            # print seq_no
             if seq_no != -1:
-                ack(seq_no,filename)
+                ack(seq_no,filename)         
                        
 def ack(seq_no,seq_file):
     make_change = -1
@@ -166,7 +166,7 @@ def validate_recv_msg(message):
         return -1
     
 def timer(send_seq_no,seq_file):
-    child_process =os.fork()
+    child_process = os.fork()
     if child_process == 0:
         p = psutil.Process(os.getpid())
         time.sleep(0.5)
@@ -195,7 +195,12 @@ def timer(send_seq_no,seq_file):
             f.truncate()    
             f.write(new_data)
         f.close()
-        os._exit(0)
+        exit(0)    
+    if child_process > 0:
+        os.wait()
+
+
+        
 
 
 def check_transfer_status(seq_file):
@@ -245,15 +250,15 @@ create_seq_file(send_file,mss,seq_file)
 while 1:
     p = psutil.Process(os.getpid())
     status = check_transfer_status(seq_file)
-    print 'status'
-    print status
+    # print 'status'
+    # print status
     if status == 0:
         print 'File has already transfered.'
         print 'Total time cost:' + str(time.time() - start_time)
         break
     seq_no = get_seq(window_size,seq_file)
-    print 'seq_No:'
-    print seq_no
+    # print 'seq_No:'
+    # print seq_no
     if seq_no > -1:
         set_seq(seq_no,seq_file)
         msg = rdt_send(send_file,int(seq_no),mss)
