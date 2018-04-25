@@ -59,7 +59,7 @@ The file will be received by the server through a socket connection.
 
 # Tasks
 
-##Task 1: Effect of Window size N
+## Task 1: Effect of Window size N
 
 In this task, select a file at least 1MB, set the MSS to 500 bytes and the loss probability
 p = 0.05. Run the Go-back-N protocol to transfer the file you selected, and vary the value of the window size N = 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024.
@@ -87,12 +87,14 @@ For N = 512, p = 0.05, MSS = 500 bytes:
 For N = 1024, p = 0.05, MSS = 500 bytes:
 
 
-##Task 2: Effect of MSS
+## Task 2: Effect of MSS
 
 In this task, let the window size N = 64 and the loss probability p = 0.05. Run the Go-back-N protocol to
 transfer the same file, and vary the MSS from 100 bytes to 1000 bytes in increments of 100 bytes.
 
 For N = 64, P = 0.05, MSS = 100 bytes:
+
+![image](http://github.com/rhxbupt/go_back_N_UDP/raw/master/screencast/MSS=100.png)
 
 For N = 64, P = 0.05, MSS = 200 bytes:
 
@@ -113,7 +115,7 @@ For N = 64, P = 0.05, MSS = 900 bytes:
 For N = 64, P = 0.05, MSS = 1000 bytes:
 
 
-##Task 3: Effect of Loss Probability p
+## Task 3: Effect of Loss Probability p
 
 For this task, set the MSS to 500 bytes and the window size N = 64. Run the Go-back-N protocol to transfer the
 same file, and vary the loss probability from p = 0.01 to p = 0.10 in increments of 0.01. 
